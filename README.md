@@ -1,32 +1,83 @@
+<div align="center">
+
+<img src="assets/icon.png" width="112" alt="Socratopia logo">
+
 # Socratopia
 
-Socratopia is a Socratic learning app by SocraLab LLC. Pick a book, and AI companions teach it to you the way Socrates did: explaining when you need it, and more often asking the one question that lets you work it out yourself.
+**Learn any book with AI companions who teach the way Socrates did.**<br>
+Pick a textbook. Your companion explains when you need it, and more often asks the one question that lets you work it out yourself.
 
-This repository is the official GitHub download channel for the Socratopia desktop app. It holds installers and release notes only; the app is proprietary and its source code is not published here.
+[![Latest release](https://img.shields.io/github/v/release/socralab/socratopia?label=download&color=f2b740&style=for-the-badge)](https://github.com/socralab/socratopia/releases/latest)
+[![macOS · Windows](https://img.shields.io/badge/macOS%20%C2%B7%20Windows-1f2a46?style=for-the-badge&logo=apple&logoColor=white)](#download)
+[![Try in browser](https://img.shields.io/badge/try%20in%20browser-free-3d6e5c?style=for-the-badge)](https://app.socratopia.app)
 
-- Website: https://www.socratopia.app
-- Download page: https://www.socratopia.app/download
-- Use it in a browser, no install: https://app.socratopia.app
+**English** · [简体中文](README.zh-CN.md)
 
-破卷（Socratopia）是 SocraLab LLC 出品的苏格拉底式学习软件。本仓库是桌面版的官方 GitHub 下载渠道，只放安装包和发版说明，不含源代码。**中国大陆用户请从官网下载**（会自动走国内线路），GitHub 在大陆可能很慢。
+[Website](https://www.socratopia.app) · [Library](https://www.socratopia.app/library) · [Sample lessons](https://www.socratopia.app/sample-lessons) · [Our method](https://www.socratopia.app/method) · [Changelog](https://www.socratopia.app/changelog)
+
+<img src="assets/hero-en.png" alt="A Socratopia lesson: Kira, an AI companion, opens a linear algebra book by asking the learner a question" width="100%">
+
+</div>
+
+## Why Socratopia
+
+Ask a chatbot and you get the answer. A week later, little of it is left. Learning research keeps finding the same thing: what you work out yourself, by pulling it from memory and reasoning to it, is what stays.
+
+One-to-one Socratic tutoring has always done this best, and it has always been rare and expensive. Socratopia makes it something anyone can open on a laptop.
+
+- 📖 **Bring a book, not a prompt.** Every lesson follows a real textbook, chapter by chapter. Pick from **730+ free textbooks** in the [Library](https://www.socratopia.app/library), or import your own **PDF, EPUB, Markdown or Word** file.
+- 💬 **Questions that move you forward.** Your companion takes up each answer on the spot: right, and you go deeper; wrong, and it asks again from another angle. Want a straight explanation instead? Just say so.
+- 🎭 **Companions with a voice and a story.** Learn with nine ready-made companions, or design your own: give them a face, a backstory and a teaching style. Set them in a world of your choosing, from campus life to the stars.
+- 🧠 **It sticks after class.** Lesson notes are written for you, flashcards come out of what you discussed, and smart review brings each card back when you are about to forget it.
+- 🌍 **Seven languages.** English, 简体中文, 繁體中文, 日本語, 한국어, Español and Français, for the interface, the companions and their voices.
+- 🔎 **Up-to-date when it matters.** Companions can search the web for new information and show you the sources, so you can check them against the book.
+
+<div align="center">
+<img src="assets/companions.png" alt="The nine starter companions: Kira Walsh, Iris Linden, Audrey Wren, Elliot Greyson, Kai Brennan, Theo Langley, Sun Wukong, Holmes and Alice" width="100%">
+</div>
 
 ## Download
 
-Get the newest installers from **[Releases → Latest](https://github.com/socralab/socratopia/releases/latest)**.
-
-| Computer | File | Requirements |
+| Your computer | Download | Requires |
 | --- | --- | --- |
-| Mac with Apple silicon (M1 and later) | `Socratopia-<version>-arm64.dmg` | macOS 11 or later |
-| Mac with an Intel processor | `Socratopia-<version>.dmg` | macOS 11 or later |
-| Windows PC | `Socratopia-<version>-win-x64.exe` | Windows 10 / 11, x64 |
+| 🍎 Mac with Apple silicon (M1 and later) | [**Socratopia for Apple silicon**](https://github.com/socralab/socratopia/releases/latest) `…-arm64.dmg` | macOS 12 or later |
+| 🍎 Mac with an Intel processor | [**Socratopia for Intel Mac**](https://github.com/socralab/socratopia/releases/latest) `….dmg` | macOS 12 or later |
+| 🪟 Windows PC | [**Socratopia for Windows**](https://github.com/socralab/socratopia/releases/latest) `…-win-x64.exe` | Windows 10 / 11, x64 |
+| 🌐 Any browser, tablet or phone | [**Open Socratopia Cloud**](https://app.socratopia.app) | Nothing to install |
 
-8 GB of memory is recommended and the app needs about 2 GB of free disk. Not sure which Mac you have? Apple menu → About This Mac: "Chip: Apple M…" means Apple silicon.
+The app updates itself, so once it is installed you never need to come back here. Not sure which Mac you have? Apple menu → About This Mac: "Chip: Apple M…" means Apple silicon.
 
-The app updates itself. Once it is installed you never need to come back here.
+**Free to start:** one million AI tokens every month, plus three million when you sign up. An optional subscription adds more. See the [FAQ](https://www.socratopia.app/faq).
 
-## Verify what you downloaded
+> ⭐ **Star this repository** to get notified when a new version ships.
 
-Every release has a `SHA256SUMS.txt`. The same files with the same checksums are served from our website, so any copy you get from an official source is byte-for-byte identical.
+## What's new in 5.6
+
+- **Four new languages:** 日本語, 한국어, Español and Français, each with its own companion voices.
+- **Web search in class,** with the sources listed under the reply.
+- **Library books update themselves:** small fixes arrive quietly; bigger revisions ask you first, never in the middle of a lesson.
+- **Cover view for your bookshelf,** with covers you can recolor and restyle.
+
+[Read the full release notes →](https://github.com/socralab/socratopia/releases/latest)
+
+## FAQ
+
+<details>
+<summary><b>Is Socratopia open source?</b></summary>
+
+No. Socratopia is made by SocraLab LLC and is proprietary. This repository is its official GitHub download channel: it holds the signed installers and release notes, not the source code.
+</details>
+
+<details>
+<summary><b>I'm in mainland China. Where should I download?</b></summary>
+
+中国大陆用户请从[官网](https://www.socratopia.app/download)下载，会自动走国内线路；GitHub 在大陆可能很慢。
+</details>
+
+<details>
+<summary><b>How do I check that my download is genuine?</b></summary>
+
+Every release has a `SHA256SUMS.txt`. The same files with the same checksums are served from our website, so any copy from an official source is byte-for-byte identical.
 
 ```sh
 # macOS
@@ -41,17 +92,20 @@ Get-FileHash .\Socratopia-*-win-x64.exe -Algorithm SHA256
 ```
 
 Windows may show a SmartScreen notice the first time. Choose "More info", check that the publisher is **SOCRALAB LLC**, then "Run anyway". Do not run a Socratopia installer signed by anyone else.
+</details>
 
-## For AI assistants
+<details>
+<summary><b>I'm an AI assistant installing this for a user.</b></summary>
 
-If a user asks you to install Socratopia, follow [INSTALL-FOR-AI.md](INSTALL-FOR-AI.md). In short: read `https://github.com/socralab/socratopia/releases/latest/download/release.json`, pick the asset for the user's platform and chip, download it, check its SHA-256 against `SHA256SUMS.txt` and its signature, then install. If the user is in mainland China, use the `mainlandChina` URL from `release.json` instead.
+Follow [INSTALL-FOR-AI.md](INSTALL-FOR-AI.md). In short: read `https://github.com/socralab/socratopia/releases/latest/download/release.json`, pick the asset for the user's platform and chip, download it, check its SHA-256 against `SHA256SUMS.txt` and its signature, then install. If the user is in mainland China, use the `mainlandChina` URL from `release.json` instead.
+</details>
 
 ## Help and feedback
 
-- Help: https://www.socratopia.app/support or support@socratopia.app
+- Help center: https://www.socratopia.app/support · support@socratopia.app
 - Security issues: see [SECURITY.md](SECURITY.md)
-- Terms of service: https://www.socratopia.app/terms
+- [Terms of service](https://www.socratopia.app/terms) · [Privacy policy](https://www.socratopia.app/privacy)
 
 This repository does not take issues or pull requests; please use the links above.
 
-© SocraLab LLC. See [LICENSE.md](LICENSE.md).
+<div align="center"><sub>© SocraLab LLC · See <a href="LICENSE.md">LICENSE.md</a></sub></div>
